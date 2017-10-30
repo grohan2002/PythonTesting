@@ -1,4 +1,6 @@
+# This program makes use of DateTime module for Python
 import datetime
+
 now = datetime.datetime.now()
 curr_year = now.year
 #print curr_year
