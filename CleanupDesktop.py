@@ -29,7 +29,10 @@ for f in files:
             #shutil.move(f, path + '/' + value)
             shutil.move(path, value)
         else:
-            print 'Error identifying vendor for', f
+            #print 'Error identifying vendor for', f
+            pass
+
+
 
 
 
