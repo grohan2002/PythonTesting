@@ -18,7 +18,7 @@ if input2 not in FileMap:
     FileMap[input2] = '/Users/rohangupta/Documents/' + input2
 
 
-files = os.listdir(input)
+files = os.listdir(source)
 
 
 for f in files:
